@@ -1,0 +1,77 @@
+body {
+  background-color: #000;
+  color: #eee;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.logo {
+  width: 320px;  /* increased from 240px */
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.truth-top {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.about {
+  padding: 3rem 2rem;
+  text-align: left; /* changed from center */
+  max-width: 800px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+  margin-left: 1.5rem; /* shift right */
+}
+
+.about p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-left: 1.5rem; /* shift right */
+}
+
+.report {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.download-btn {
+  background: none;
+  border: 1px solid #fff;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background: white;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4rem;
+}
