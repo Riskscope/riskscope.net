@@ -12,21 +12,21 @@ header {
 }
 
 .logo {
-  width: 320px;  /* increased from 240px */
+  width: 320px;
   height: auto;
   display: block;
   margin: 0 auto 1rem auto;
 }
 
-.truth-top {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 1rem;
+.motto {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-top: -1rem;
 }
 
 .about {
   padding: 3rem 2rem;
-  text-align: left; /* changed from center */
+  text-align: center;
   max-width: 800px;
   margin: auto;
 }
@@ -34,38 +34,36 @@ header {
 .about h2 {
   font-size: 2.2rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   color: #fff;
-  margin-left: 1.5rem; /* shift right */
 }
 
-.about p {
+.description {
   font-size: 1.15rem;
   line-height: 1.6;
-  color: #ccc;
+  color: #ffffff !important;
   max-width: 700px;
   margin: 0 auto;
-  margin-left: 1.5rem; /* shift right */
 }
 
-.report {
+.contact-details {
   text-align: center;
-  margin-top: 3rem;
+  padding: 2rem;
 }
 
-.download-btn {
-  background: none;
-  border: 1px solid #fff;
-  padding: 0.75rem 1.5rem;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
+.contact-details ul {
+  list-style: none;
+  padding: 0;
 }
 
-.download-btn:hover {
-  background: white;
-  color: black;
+.contact-details li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.contact-details p {
+  color: #ccc;
+  font-size: 0.95rem;
 }
 
 footer {
@@ -75,3 +73,4 @@ footer {
   color: #666;
   margin-top: 4rem;
 }
+
